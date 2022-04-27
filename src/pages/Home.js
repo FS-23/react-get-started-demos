@@ -1,7 +1,9 @@
 
-function Home(){
+function Home(props){
+    console.log('props:', props)
+    //props.title= "Modified title"
     return (
-        <h1>Welcome to home page </h1>
+        <h1> {props.title} {props.username}</h1>
     )
 }
 

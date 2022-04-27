@@ -8,6 +8,11 @@ class Contact extends React.Component{
     constructor(){
         super()
         console.log('creating contact component')
+        this.state = {
+            count: 5,
+            user: "",
+            
+        }
     }
     
     componentDidMount(){
