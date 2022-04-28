@@ -7,6 +7,7 @@ import Counter from './components/Counter'
 
 import Artcle from './components/Article'
 function App() {
+  
   return (
     <div >
          {/* <Home title="Home page 1"  username="Youssef" />
@@ -17,12 +18,7 @@ function App() {
           <Counter />
          </div>
 
-          <div>------------- Article component with forms , state and events management -------------------------- 
-         <Artcle title="Article 1"/>
-         <Artcle title="Article 2"/>
-         {/* <Artcle title="PC HP"/>
-         <Artcle title="Souris"/>  */}
-        
+         <Artcle />
     </div>
   );
 }

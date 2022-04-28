@@ -1,6 +1,5 @@
 import TaskItem from "./TaskItem"
 function TaskList(){
-    
     let list = [
         {id: 1 ,color:"green" , title: "Learn reactJs" , description: "Learn reactJs documentation"},
         {id: 2 ,color: "blue", title: "Learn PHP" , description: "Learn PHP documentation"},

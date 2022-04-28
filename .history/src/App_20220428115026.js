@@ -17,7 +17,6 @@ function App() {
           <Counter />
          </div>
 
-          <div>------------- Article component with forms , state and events management -------------------------- 
          <Artcle title="Article 1"/>
          <Artcle title="Article 2"/>
          {/* <Artcle title="PC HP"/>
